@@ -1,0 +1,96 @@
+.titolo
+{
+	text-align: center;
+	font-family: '';
+	margin-top: 2%;
+}
+
+.provaMeme
+{
+	font-size: 35px;
+	font-family: "Times new roman";
+	font-weight: bold;
+}
+
+.provaMeme2
+{
+	font-size: 20px;
+	font-family: "Lucida Console";
+}
+
+.titoloParagrafo
+{
+	text-align: center;
+	position: fixed;
+}
+
+.testoCentrato
+{
+	text-align: center;
+} 
+
+.bannerSx
+{
+	height: 85%;
+	width: 20%; /*350px*/
+	background-color: #BE25BE;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	left: 70px;
+	top: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bannerDx
+{
+	height: 85%;
+	width: 20%;
+	background-color: #BE25BE;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	right: 70px;
+	top: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.paragrafo
+{
+	height: 400px;
+	overflow: hidden;
+	width: 40%;
+	background-color: cyan;
+	color: black;
+	text-align: center;
+	word-wrap: break-word;
+	padding: 1%;
+	position: relative;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 2%;
+	/*left: var(--larghezzaFinestra);*/
+	/*left: 590px; /*1920/2-width/2*/ /*960-350-20*/ /*20 pixel di errore*/
+	/*top: 300px;*/
+	/*display: flex;*/
+	/*flex-direction: row;*/
+	justify-content: center;
+}
+
+.contenitoreImmagini {
+	margin: 100px;
+}
+
+.immagine {
+	margin-right: 10px;
+}
+
+.lastImmagine {
+	margin-right: 0;
+}
