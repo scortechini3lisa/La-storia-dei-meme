@@ -1,38 +1,38 @@
+.background {
+	background-image: url("immagini/background1.png");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 .titolo
 {
+	/* font-size: 40px; */
 	text-align: center;
-	font-family: '';
-	margin-top: 2%;
-}
-
-.provaMeme
-{
-	font-size: 35px;
-	font-family: "Times new roman";
+	font-family: 'Georgia';
 	font-weight: bold;
-}
-
-.provaMeme2
-{
-	font-size: 20px;
-	font-family: "Lucida Console";
+	margin-top: 2%;
 }
 
 .titoloParagrafo
 {
+	/* font-size: 30px; */
 	text-align: center;
-	position: fixed;
+	font-family: 'Georgia';
+	font-weight: bold;
+	margin-top: 1%;
+	margin-bottom: 2%;
 }
 
-.testoCentrato
+.testoParagrafo
 {
 	text-align: center;
-} 
+	font-family: 'Georgia';
+}
 
 .bannerSx
 {
 	height: 85%;
-	width: 20%; /*350px*/
+	width: 15%; /*350px*/
 	background-color: #BE25BE;
 	color: white;
 	text-align: center;
@@ -48,7 +48,7 @@
 .bannerDx
 {
 	height: 85%;
-	width: 20%;
+	width: 15%;
 	background-color: #BE25BE;
 	color: white;
 	text-align: center;
@@ -61,20 +61,21 @@
 	justify-content: center;
 }
 
-.paragrafo
+.paragrafo 
 {
 	height: 400px;
 	overflow: hidden;
-	width: 40%;
-	background-color: cyan;
+	width: 45%;
+	/* background-color: cyan; */
 	color: black;
 	text-align: center;
 	word-wrap: break-word;
 	padding: 1%;
 	position: relative;
-	margin-left: 30%;
+	margin-left: 27%;
 	margin-right: 30%;
-	margin-top: 2%;
+	margin-top: 1%;
+	margin-bottom: 2px;
 	/*left: var(--larghezzaFinestra);*/
 	/*left: 590px; /*1920/2-width/2*/ /*960-350-20*/ /*20 pixel di errore*/
 	/*top: 300px;*/
@@ -84,13 +85,9 @@
 }
 
 .contenitoreImmagini {
-	margin: 100px;
+	margin: 40px;
 }
 
 .immagine {
 	margin-right: 10px;
-}
-
-.lastImmagine {
-	margin-right: 0;
 }

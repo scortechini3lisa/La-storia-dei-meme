@@ -1,1 +1,6 @@
-nome-descrizione-numeroImmagini-immagine-widthImmagine-heightImmagine-immagine2(...)
+nome-descrizione-numeroImmagini-immagine-widthImmagine-immagine2(...)
+#FFFFFF
+#F1F2F6
+#AEB8FE
+#37288C
+#332680
