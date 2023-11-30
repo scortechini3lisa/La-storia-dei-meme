@@ -30,7 +30,6 @@ var listaImmagini; //array delle immagini
 var conta;
 // var somma; //appoggio per la grandezza medie delle immagini
 // var grandezzaImmagini = []; //grandezza media delle immagini
-
 // Utilizzo di fetch per ottenere i dati dal file
 fetch(percorsoFile)
     .then(response => {
@@ -128,7 +127,7 @@ fetch(percorsoFile)
                 nuovoDivImmagini.classList.add('contenitoreImmagini');
                 nuovoDiv.classList.add('paragrafo');
 			}
-           
+         
         document.addEventListener('DOMContentLoaded', function () {
             console.log("DOM caricato");
         }
