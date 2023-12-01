@@ -1,6 +1,12 @@
 nome-descrizione-numeroImmagini-immagine-widthImmagine-immagine2(...)
-#FFFFFF
-#F1F2F6
-#AEB8FE
-#37288C
-#332680
+
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'></h1>"
+    +"<p class='testoParagrafo'></p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='' width= class='img-fluid rounded immagine'>"
+    +"<img src='' width= class='img-fluid rounded immagine'>"
+    +"<img src='' width= class='img-fluid rounded immagine'>"
+    +"<img src='' width= class='img-fluid rounded immagine'>"
+    +"<img src='' width= class='img-fluid rounded immagine'>"
+    +"</div></div>"

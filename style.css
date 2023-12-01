@@ -1,4 +1,4 @@
-/* Personalizzazione della scrollbar su Chrome, Edge e Safari */
+/* Personalizzazione della scrollbar */
 #barra::-webkit-scrollbar {
 	width: 12px;
   }
@@ -18,13 +18,12 @@
   
   
 .background {
-	/* background-image: url("immagini/background1.png"); */
+	background-color: #F2F5FF;
 	background-attachment: fixed;
 	background-size: cover;
 }
 
 .titolo {
-	/* font-size: 40px; */
 	text-align: center;
 	font-family: 'Georgia';
 	font-weight: bold;
@@ -32,7 +31,6 @@
 }
 
 .titoloParagrafo {
-	/* font-size: 30px; */
 	text-align: center;
 	font-family: 'Georgia';
 	font-weight: bold;
@@ -41,7 +39,6 @@
 }
 
 .introduzione {
-	/* background-color: #BE25BE; */
 	padding-left: 25%;
 	padding-right: 25%;
 	text-align: center;
@@ -49,7 +46,6 @@
 }
 
 .testoParagrafo {
-	/* background-color: #BE25BE; */
 	padding-left: 5%;
 	padding-right: 5%;
 	text-align: center;
@@ -57,23 +53,6 @@
 }
 
 .bannerSx {
-	/* height: 85%; */
-	height: 64%;
-	width: 20%; /*350px*/
-	background-color: #BE25BE;
-	color: white;
-	text-align: center;
-	padding: 5px;
-	position: fixed;
-	left: 60px;
-	top: 120px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.bannerDx {
-	/* height: 85%; */
 	height: 64%;
 	width: 20%;
 	background-color: #BE25BE;
@@ -81,18 +60,32 @@
 	text-align: center;
 	padding: 5px;
 	position: fixed;
-	right: 60px;
-	top: 120px;
+	left: 45px;
+	top: 140px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bannerDx {
+	height: 64%;
+	width: 20%;
+	background-color: #BE25BE;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	position: fixed;
+	right: 45px;
+	top: 140px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
 .paragrafo  {
-	height: 400px;
+	height: 450px;
 	overflow: hidden;
 	width: 45%;
-	/* background-color: cyan; */
 	color: black;
 	text-align: center;
 	word-wrap: break-word;
@@ -102,18 +95,47 @@
 	margin-right: 30%;
 	margin-top: 1%;
 	margin-bottom: 2px;
-	/*left: var(--larghezzaFinestra);*/
-	/*left: 590px; /*1920/2-width/2*/ /*960-350-20*/ /*20 pixel di errore*/
-	/*top: 300px;*/
-	/*display: flex;*/
-	/*flex-direction: row;*/
+	justify-content: center;
+}
+
+.paragrafo-piccolo  {
+	height: 350px;
+	overflow: hidden;
+	width: 45%;
+	color: black;
+	text-align: center;
+	word-wrap: break-word;
+	padding: 1%;
+	position: relative;
+	margin-left: 27%;
+	margin-right: 30%;
+	margin-top: 1%;
+	margin-bottom: 2px;
+	justify-content: center;
+}
+
+.paragrafo-grande {
+	height: 550px;
+	overflow: hidden;
+	width: 45%;
+	color: black;
+	text-align: center;
+	word-wrap: break-word;
+	padding: 1%;
+	position: relative;
+	margin-left: 27%;
+	margin-right: 30%;
+	margin-top: 1%;
+	margin-bottom: 2px;
 	justify-content: center;
 }
 
 .contenitoreImmagini {
-	margin: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 .immagine {
 	margin-right: 10px;
+	margin-top: 5px;
 }

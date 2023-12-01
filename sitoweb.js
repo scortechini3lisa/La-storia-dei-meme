@@ -29,6 +29,7 @@ var nImmagini; //numero di immagini per il singolo meme
 var listaImmagini; //array delle immagini
 var conta;
 // var somma; //appoggio per la grandezza medie delle immagini
+// var media;
 // var grandezzaImmagini = []; //grandezza media delle immagini
 // Utilizzo di fetch per ottenere i dati dal file
 fetch(percorsoFile)
@@ -67,16 +68,32 @@ fetch(percorsoFile)
             allMeme.push(appoggio);
             //linkImmagine = allMeme[i].immagine;
             
-            // // Calcola la media della grandezza delle immagini
+            // Calcola la media della grandezza delle immagini
             // somma=0;
+            // media=0;
             // for (var t=0;t<allImmages.length;t++) {
             //     somma = somma + parseInt(allImmages[t].grandezza);
             // }
-            // if(i<listaMeme.length - 1){
-            //     grandezzaImmagini[i] = (somma/allImmages.length)+300;
+            // if(i<listaMeme.length - 1) {
+            //     media=somma/allImmages.length;
+            //     if(allMeme[i].descrizione=="") {
+            //         grandezzaImmagini[i] = media+150;
+            //     }
+            //     else if(allMeme[i].descrizione.length<=100){
+            //         grandezzaImmagini[i] = media+200;
+            //     }
             //     grandezzaImmagini[i] = grandezzaImmagini[i]+'px';
             // }
         }
+        ////non funziona un cazzo
+        // for(var t=0;t<listaMeme.length - 1;t++) {
+        //     for(var b=0;b<allMeme[t].immagini.length;b++) {
+        //         console.log("descrizione");
+        //         // console.log(allMeme[i].descrizione);
+        //         console.log("grandezza media");
+        //         console.log(grandezzaImmagini[i]);
+        //     }
+        // }
             // Otteniamo il riferimento all'elemento contenitore
 			var container = document.getElementById('container');
 			// Definiamo il numero di div che vogliamo creare
@@ -120,7 +137,7 @@ fetch(percorsoFile)
                     // console.log(grandezzaImmagini[c]);
                     // nuovoDiv.style.height = grandezzaImmagini[i];
                 }
-
+                
 				// Aggiunge l'elemento div al contenitore
 				container.appendChild(nuovoDiv);
                 // Assegna le classi agli oggetti
