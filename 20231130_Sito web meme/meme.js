@@ -1,0 +1,126 @@
+const MEME = [
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'>Persone</h1>"
+    +"<p class='testoParagrafo'>Tra i meme più classici troviamo quelli raffiguranti persone umane. Proprio perchè rappresentano situazioni e/o emozioni realistiche e di conseguenza ci sentiamo più identificati in questa tipologia di meme.</p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='immagini/0e326e0171427b9b0c3832f82ecfb2ad.jpg' width=110 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/1a769a4089615f09abb9cac9d4840a91.jpg' width=150 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/4f4fab04ef810c7a8d17b6e1c8f55590.jpg' width=110 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/73ef07da7f8e57bef251507bf2f83712.jpg' width=110 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/ad6571d48b54e99d8cdd621c879d76e3.jpg' width=110 class='img-fluid rounded immagine'>"
+    +"</div></div>",
+    
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'>Personalizzabili</h1>"
+    +"<p class='testoParagrafo'>Tutti i meme possono essere modificati aggiungendo del testo.<br>La maggior parte comunicano qualcosa anche senza spiegazione mentre in alcuni casi è necessario aggiungere delle scritte o delle immagini.</p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='immagini/4958b2a59d18cad8e2287602d80f51eb.jpg' width=110 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/e5186f69d57ce72b2258e21338cf4da9.jpg' width=110 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/cbfdf81a3e3421c3de492ab86cccbe41.jpg' width=110 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/46671fbc353f47a0bbc022ddb27b0524.jpg' width=110 class='img-fluid rounded immagine'>"
+    +"</div></div>",
+    
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'>Persone famose</h1>"
+    +"<p class='testoParagrafo'>Molto ricercati sono i meme dei personaggi famosi come attori, cantanti e anche politici. Sono vari i tipi di meme sulle celebrità. La tattica più usata è quella di sovrapporre la faccia della celebrità su un personaggio animato. Tra i più famosi abbiamo quelli del noto attore e wrestler The Rock.</p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='immagini/9d1959fac1b0f49ffdac75d2acf20094.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/90f692f336bb19901d3b46b4349914ad.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/154c5dbc100dbbae9b5ee0ea25434ddb.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/171bc2472906699c3dce0501bf2e734c.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/bdf93349a63d9826c8c02e4509b19442.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"</div></div>",
+    
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'>Bambini</h1>"
+    +"<p class='testoParagrafo'>Molto usati anche i meme sui bambini perchè rappresentano in modo chiaro e immediato le nostre emozioni e quindi rendono più semplice la comprensione di quello che vogliamo comunicare</p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='immagini/4b0c94c62d9005711c602e29b2df67d1.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/8dd8d440c71db4bbfef1bf59af91ae07.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/b5012788eada5d48b01204f177c2485e.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/e83a2eaaedde5c8bde80b6b8df27c430.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/e725db6eeaaf7bd32aa0324fa7e15480.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"</div></div>",
+    
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'>Animazione</h1>"
+    +"<p class='testoParagrafo'>Il mondo più ampio dei meme è senza alcun dubbio quello del mondo dell'animazione. Dai più semplici cartoni animati agli anime, questi meme sono in assoluto i preferito del web.</p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='immagini/0db6588ffc7f2f62f67c70d3cc9f7b9a.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/9a0f84739082ee8e765331e10ebbace8.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/97145b45f80f8d0fb770ff78a96f8f87.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/8631820f2d3682b084cf1074da9a2427.jpg' width=100 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/squiddy.jpg' width= class='img-fluid rounded100 immagine'>"
+    +"</div></div>",
+    
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'>Spider man</h1>"
+    +"<p class='testoParagrafo'>I meme d'animazione che popolano il web da più tempo sono quelli di Spider Man che nel corso del tempo si sono evoluti con l'uscita dei più recenti film d'animazione.</p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='immagini/75dc467abeb5a534e23827ac4a7dd50b.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/87419e60ad61d44d51e4d343bed619dc.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/SpiderMan,Miles Morales.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/1d379aee9ac394bdadcd684cdb4136f5.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"</div></div>",
+    
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'>Shrek</h1>"
+    +"<p class='testoParagrafo'>Quelli con più successo e acclamati dagli utenti sono senza alcun dubbio i meme di Shrek.</p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='immagini/7cd872835fe2213ead971521de791912.jpg' width=120 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/8fd15963f9190ba590f74c3ee6add63f.jpg' width=120 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/9631cbee7e6d55eac62b9068b8f7b6bd.jpg' width=130 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/91dc7432561e1adb6628efff9955f005.jpg' width=130 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/54abd25bcdab4a4fbd40143d04310c60.jpg' width=110 class='img-fluid rounded immagine'>"
+    +"</div></div>",
+    
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'>Gumball</h1>"
+    +"<p class='testoParagrafo'></p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='immagini/darwin.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/gumball.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/gumball1.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"</div></div>",
+    
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'>Woody</h1>"
+    +"<p class='testoParagrafo'></p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='immagini/woodyinferno.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/woody.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"</div></div>",
+    
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'>Pupazzi</h1>"
+    +"<p class='testoParagrafo'>Kermit la rana è un burattino del gruppo dei Muppet creato da Jim Henson. La prima puntata è stata trasmessa nel 1955. Oltre da Kermit la rana, i Muppet sono formati da Miss Piggy, Fozzie, Gonzo, Rowlf, Scooter, Animal, Pepe il Re dei Gamberi, Rizzo il ratto, Walter.</p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='immagini/9ca5a4c6fc92d7b33931fc59b6022938.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/25cc3652a1d09bab99d828cb71ee05bb.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/kermit.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/f9f28f7d07ed31c87a383436e7f3f18c.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/b678af181b63f46633583c7b5d186781.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"</div></div>",
+    
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'>Cani</h1>"
+    +"<p class='testoParagrafo'>Gli animali sono molto ricercati soprattutto perchè sono simpatici e divertenti.</p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='immagini/2fa0d766bd1e2cff855f261c2a671286.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/8c05d22fd93472264b6f9465eced4303.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/0342df7323a6cbee51c3e5887c082572.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immaginI/6292bc7fc135d814017a6cab4336c1d8.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/d8f55bf935ab8547bdf7fcb2a5003aab.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"</div></div>",
+    
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'>Gatti</h1>"
+    +"<p class='testoParagrafo'></p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='immagini/0ad866e4fb4cc65f0e15818f25b2a61d.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/17c625239ef342089c8e62cb0e606248.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/58cc6d87a193935760562c8e964e1e6d.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/c78c2564d931cb24ed270cca40c72ba1.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/f4ce349d746d11d8f4a298fa3ef24695.jpg' width=140 class='img-fluid rounded immagine'>"
+    +"</div></div>"
+];

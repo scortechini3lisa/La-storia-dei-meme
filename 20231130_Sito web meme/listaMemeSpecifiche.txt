@@ -1,0 +1,12 @@
+nome-descrizione-numeroImmagini-immagine-widthImmagine-immagine2(...)
+
+    "<div class='paragrafo'>"
+    +"<h1 class='titoloParagrafo'></h1>"
+    +"<p class='testoParagrafo'></p>"
+    +"<div class='contenitoreImmagini'>"
+    +"<img src='' width= class='img-fluid rounded immagine'>"
+    +"<img src='' width= class='img-fluid rounded immagine'>"
+    +"<img src='' width= class='img-fluid rounded immagine'>"
+    +"<img src='' width= class='img-fluid rounded immagine'>"
+    +"<img src='' width= class='img-fluid rounded immagine'>"
+    +"</div></div>"
