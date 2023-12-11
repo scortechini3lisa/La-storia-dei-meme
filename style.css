@@ -4,12 +4,12 @@
   }
   
   #barra::-webkit-scrollbar-thumb {
-	background-color: darkgray;
+	background-color: #9386D0;
 	border-radius: 6px;
   }
   
   #barra::-webkit-scrollbar-track {
-	background-color: lightgray;
+	background-color: #453881;
   }
   
   #barra::-webkit-scrollbar-corner {
@@ -18,24 +18,32 @@
   
   
 .background {
-	background-color: #F2F5FF;
+	/* background-color: #F2F5FF; */
+	/* background-color: #E5F4EB; */
+	background-color:  #5D4CA9;
 	background-attachment: fixed;
 	background-size: cover;
 }
 
 .titolo {
+	font-size: 320%;
 	text-align: center;
 	font-family: 'Georgia';
 	font-weight: bold;
-	margin-top: 2%;
+	margin-top: 3%;
+	color:  #FED26B;
+	-webkit-text-stroke: 1px black; /* Contorno nero di 2px */
 }
 
 .titoloParagrafo {
+	font-size: 250%;
 	text-align: center;
 	font-family: 'Georgia';
 	font-weight: bold;
 	margin-top: 1%;
 	margin-bottom: 2%;
+	color: #FAFF81;
+	-webkit-text-stroke: 1px black
 }
 
 .introduzione {
@@ -43,6 +51,8 @@
 	padding-right: 25%;
 	text-align: center;
 	font-family: 'Georgia';
+	/* font-family: 'Circular'; */
+	color: white;
 }
 
 .testoParagrafo {
@@ -55,7 +65,7 @@
 .bannerSx {
 	height: 64%;
 	width: 20%;
-	background-color: #BE25BE;
+	background-color: #E165E1;
 	color: white;
 	text-align: center;
 	padding: 5px;
@@ -70,7 +80,7 @@
 .bannerDx {
 	height: 64%;
 	width: 20%;
-	background-color: #BE25BE;
+	background-color: #E165E1;
 	color: white;
 	text-align: center;
 	padding: 5px;
@@ -86,7 +96,7 @@
 	height: 450px;
 	overflow: hidden;
 	width: 45%;
-	color: black;
+	color: white;
 	text-align: center;
 	word-wrap: break-word;
 	padding: 1%;
@@ -102,7 +112,7 @@
 	height: 350px;
 	overflow: hidden;
 	width: 45%;
-	color: black;
+	color: white;
 	text-align: center;
 	word-wrap: break-word;
 	padding: 1%;
@@ -118,7 +128,7 @@
 	height: 550px;
 	overflow: hidden;
 	width: 45%;
-	color: black;
+	color: white;
 	text-align: center;
 	word-wrap: break-word;
 	padding: 1%;
@@ -136,6 +146,7 @@
 }
 
 .immagine {
+	border: 3px solid #8577C4;
 	margin-right: 10px;
 	margin-top: 5px;
 }

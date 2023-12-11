@@ -43,14 +43,15 @@ const MEME = [
     +"<img src='immagini/e725db6eeaaf7bd32aa0324fa7e15480.jpg' width=130 class='img-fluid rounded immagine'>"
     +"</div></div>",
     
-    "<div class='paragrafo-piccolo'>"
+    "<div class='paragrafo-grande'>"
     +"<h1 class='titoloParagrafo'>Animazione</h1>"
     +"<p class='testoParagrafo'>Il mondo più ampio dei meme è senza alcun dubbio quello del mondo dell'animazione.<br>Dai più semplici cartoni animati agli anime, questi meme sono in assoluto i preferito del web.</p>"
     +"<div class='contenitoreImmagini'>"
-    +"<img src='immagini/0db6588ffc7f2f62f67c70d3cc9f7b9a.jpg' width=120 class='img-fluid rounded immagine'>"
-    +"<img src='immagini/9a0f84739082ee8e765331e10ebbace8.jpg' width=110 class='img-fluid rounded immagine'>"
-    +"<img src='immagini/97145b45f80f8d0fb770ff78a96f8f87.jpg' width=110 class='img-fluid rounded immagine'>"
-    +"<img src='immagini/8631820f2d3682b084cf1074da9a2427.jpg' width=120 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/0db6588ffc7f2f62f67c70d3cc9f7b9a.jpg' width=130 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/9a0f84739082ee8e765331e10ebbace8.jpg' width=120 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/97145b45f80f8d0fb770ff78a96f8f87.jpg' width=120 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/fc961c842aa17fe278f069d507b50674.jpg' width=150 class='img-fluid rounded immagine'>"
+    +"<img src='immagini/8631820f2d3682b084cf1074da9a2427.jpg' width=130 class='img-fluid rounded immagine'>"
     +"</div></div>",
     
     "<div class='paragrafo-grande'>"
