@@ -21,7 +21,7 @@ const MEME = [
     +"<img src='immagini/46671fbc353f47a0bbc022ddb27b0524.jpg' width=125 class='img-fluid rounded immagine'>"
     +"</div></div>",
     
-    "<div class='paragrafo-grande'>"
+    "<div class='paragrafo'>"
     +"<h1 class='titoloParagrafo'>Persone famose</h1>"
     +"<p class='testoParagrafo'>Molto ricercati sono i meme dei personaggi famosi come attori, cantanti, politici e molti altri.<br>Sono vari i tipi di meme sulle celebrità. La tattica più usata è quella di sovrapporre la faccia della celebrità su un personaggio animato o semplici oggetti.<br>Tra i più famosi abbiamo quelli del noto attore e wrestler The Rock.</p>"
     +"<div class='contenitoreImmagini'>"
@@ -32,7 +32,7 @@ const MEME = [
     +"<img src='immagini/bdf93349a63d9826c8c02e4509b19442.jpg' width=130 class='img-fluid rounded immagine'>"
     +"</div></div>",
     
-    "<div class='paragrafo'>"
+    "<div class='paragrafo-piccolo'>"
     +"<h1 class='titoloParagrafo'>Bambini</h1>"
     +"<p class='testoParagrafo'>Richiesti anche i meme sui bambini perchè rappresentano in modo chiaro e immediato le nostre emozioni e quindi rendono più semplice la comprensione di quello che intendiamo comunicare.</p>"
     +"<div class='contenitoreImmagini'>"
@@ -43,7 +43,7 @@ const MEME = [
     +"<img src='immagini/e725db6eeaaf7bd32aa0324fa7e15480.jpg' width=130 class='img-fluid rounded immagine'>"
     +"</div></div>",
     
-    "<div class='paragrafo-grande'>"
+    "<div class='paragrafo-piccolo'>"
     +"<h1 class='titoloParagrafo'>Animazione</h1>"
     +"<p class='testoParagrafo'>Il mondo più ampio dei meme è senza alcun dubbio quello del mondo dell'animazione.<br>Dai più semplici cartoni animati agli anime, questi meme sono in assoluto i preferito del web.</p>"
     +"<div class='contenitoreImmagini'>"
@@ -54,7 +54,7 @@ const MEME = [
     +"<img src='immagini/8631820f2d3682b084cf1074da9a2427.jpg' width=130 class='img-fluid rounded immagine'>"
     +"</div></div>",
     
-    "<div class='paragrafo-grande'>"
+    "<div class='paragrafo'>"
     +"<h1 class='titoloParagrafo'>Spider man</h1>"
     +"<p class='testoParagrafo'>I meme d'animazione che popolano il web da più tempo sono quelli di Spider Man che nel corso del tempo si sono evoluti con l'uscita dei più recenti film d'animazione.<br>Spider-Man segue la storia di Peter Parker, uno studente morso da un ragno radioattivo che ottiene superpoteri. Peter diventa Spider-Man, lottando contro il crimine e bilanciando la sua vita personale. Affronta nemici come Green Goblin e dottor Octopus, navigando tra responsabilità e potere.</p>"
     +"<div class='contenitoreImmagini'>"
@@ -112,7 +112,7 @@ const MEME = [
     +"<img src='immagini/b678af181b63f46633583c7b5d186781.jpg' width=140 class='img-fluid rounded immagine'>"
     +"</div></div>",
     
-    "<div class='paragrafo'>"
+    "<div class='paragrafo-piccolo'>"
     +"<h1 class='titoloParagrafo'>Cani</h1>"
     +"<p class='testoParagrafo'>Gli animali sono molto gettonati soprattutto perchè sono simpatici e divertenti.</p>"
     +"<div class='contenitoreImmagini'>"
